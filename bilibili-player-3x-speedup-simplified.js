@@ -10,7 +10,6 @@
 // @icon         https://www.bilibili.com/favicon.ico
 // @run-at       document-end
 // @grant        GM_addStyle
-// @grant        none
 // @license      MIT
 // ==/UserScript==
 
@@ -20,6 +19,7 @@
     'use strict';
 
     // 本文件基于 https://greasyfork.org/zh-CN/scripts/462473/ 简化
+    // https://simply-how.com/enhance-and-fine-tune-any-web-page-the-complete-user-scripts-guide
 
     const wait = () => setTimeout(() => {
         console.log('[bili player 3x][Timeout] wait');
