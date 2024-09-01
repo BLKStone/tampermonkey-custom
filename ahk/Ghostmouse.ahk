@@ -195,7 +195,8 @@ FileDelete, %filename%
 return
 
 SaveRecording:
-filename := lineCount . "Recording.ahk"
+FormatTime, dateStr,,yyyyMMdd
+filename := dateStr . lineCount . "Recording.ahk"
 Array := []
 Array.Push("CoordMode, Mouse, Screen")
 Array.Push("SetKeyDelay -1")
